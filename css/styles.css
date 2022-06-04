@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto";
+}
+ul li {
+  list-style: none;
+}
+
+/* header */
+/* logo */
+.header-logo {
+  text-decoration-line: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: #000000;
+}
+.header-logo .web {
+  color: #2196f3;
+}
+/* link */
+.header-link {
+  text-decoration-line: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #212121;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+/* contact */
+.header-contact {
+  text-decoration-line: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #757575;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
