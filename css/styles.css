@@ -1,52 +1,126 @@
+:root {
+    --primary-white-color --accent-color --title-text-color
+}
+
 body {
-  font-family: "Roboto";
+    font-family: "Roboto";
+    font-style: normal;
 }
+
 ul li {
-  list-style: none;
+    list-style: none;
 }
+
+
 
 /* header */
 /* logo */
 .header-logo {
-  text-decoration-line: none;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+    text-decoration-line: none;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 
-  color: #000000;
+    color: #000000;
 }
+
 .header-logo .web {
-  color: #2196f3;
+    color: #2196f3;
 }
 /* link */
 .header-link {
-  text-decoration-line: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+    text-decoration-line: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 
-  color: #212121;
+    color: #212121;
 }
+
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+    color: #2196f3;
 }
 /* contact */
 .header-contact {
-  text-decoration-line: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+    text-decoration-line: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 
-  color: #757575;
+    color: #757575;
 }
+
 .header-contact:hover,
 .header-contact:focus {
-  color: #2196f3;
+    color: #2196f3;
+}
+
+
+
+/* hero */
+/* title */
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+/* button */
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #188CE8;
+}
+
+
+
+/* feature */
+/* feature-title */
+.feature-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.feature-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+
+/* we-doing */
+/* title */
+.we-doing .title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
 }
