@@ -145,6 +145,9 @@ ul li {
 
     color: var(--paragraph-color);
 }
+.feature-head{
+    display: none;
+}
 
 
 /* we-doing */
@@ -191,6 +194,9 @@ ul li {
 
 
 /* portfolio.html */
+.portfolio-head{
+    display: none;
+}
 .filter-btn{
     cursor: pointer;
     font-weight: 500;
